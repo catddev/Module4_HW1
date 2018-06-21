@@ -67,7 +67,7 @@ start:
 	break;
 	case 4:
 	{
-		unsigned long long int a, x = 1; //почему без модификатора unsigned выводит отрицательное произведение?
+		unsigned long long int a, x = 1; 
 		cout << "vvedite a ot 1 do 20:";
 		cin >> a;
 		if (a >= 1 && a <= 20)
